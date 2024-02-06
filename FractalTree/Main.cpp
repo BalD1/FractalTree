@@ -66,11 +66,11 @@ int main()
                         CreateTree();
                         break;
                     case sf::Keyboard::Right:
-                        fractalRotation += 5;
+                        fractalRotation += 1;
                         CreateTree();
                         break;
                     case sf::Keyboard::Left:
-                        fractalRotation -= 5;
+                        fractalRotation -= 1;
                         CreateTree();
                         break;
                     case sf::Keyboard::Up:
